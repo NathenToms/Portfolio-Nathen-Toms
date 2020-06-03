@@ -13,6 +13,8 @@
     position: relative;
 }
 
+.headerLink {text-decoration:none;}
+
 .container
 {
     border: 15px solid #f4f4f4;  
