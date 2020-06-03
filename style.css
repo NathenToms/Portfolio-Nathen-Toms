@@ -195,7 +195,7 @@ ul
 
     width: 50px;
 
-    right: 0px;
+    right: -1px;
     top: 25px;
 
     transition: 0.5s;
@@ -207,7 +207,7 @@ ul
 
     width: 60px;
 
-    right: 0px;
+    right: -1px;
     top: 25px;
     transition: 0.5s;
 }
