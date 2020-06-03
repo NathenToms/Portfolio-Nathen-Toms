@@ -164,8 +164,9 @@ ul
 #slideshow
 {
     background-image: url('Images/Supernova_Strike_Squad/SNSS_SS_01.png'); 
-	background-position:center;
+    background-position:center;
     background-size:cover;
+    background-color: black;
 
     margin-right: 0px;
     
