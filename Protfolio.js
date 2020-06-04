@@ -73,3 +73,12 @@ function updateImage(slideshow, listOfImages)
 	
 	document.getElementById('slideshow-Link').setAttribute('href', imageArray[imageIndex]);
 }
+
+function preloadImages(img_temp) 
+{
+	SSS_Images.forEach(image => { img_temp.backgroundImage = "url('" + image + "')"; });
+	DOE_Images.forEach(image => { img_temp.backgroundImage = "url('" + image + "')"; });
+	TNT_Images.forEach(image => { img_temp.backgroundImage = "url('" + image + "')"; });
+	LND_Images.forEach(image => { img_temp.backgroundImage = "url('" + image + "')"; });
+	SCR_Images.forEach(image => { img_temp.backgroundImage = "url('" + image + "')"; });
+}
