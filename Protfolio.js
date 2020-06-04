@@ -59,7 +59,7 @@ function Initialize(slideshow) {
 		
 		document.getElementById('slideshow-Link').setAttribute('href', imageArray[imageIndex]);
 		
-	}, 5000);
+	}, 1000);
 }
 
 function updateImage(slideshow, listOfImages)
