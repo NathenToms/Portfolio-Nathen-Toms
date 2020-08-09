@@ -1,0 +1,307 @@
+﻿/*#region Divider Styles */
+
+/*The Background of my portfolio*/
+.background {
+    background-image: url('../Images/Supernova_Strike_Squad/SNSS_SS_05.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/*The Portfolio Container*/
+.Portfolio {
+    background-color: #363636;
+    margin: auto;
+    width: 1250px;
+    height: 1175px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*#region Contact Info */
+#Name{
+    position:relative;
+    left:5px;
+    top:-10px;
+}
+
+#Title {
+    position: relative;
+    left: 5px;
+    top: -30px;
+}
+
+#Description {
+    position: relative;
+    left: 5px;
+    top: -30px;
+}
+
+.contactInfo {
+    background-color: white;
+    margin: auto;
+    width: 98%;
+    height: 250px;
+    display: flex;
+    border: 3px solid #363636;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.profileImage {
+    background-color: white;
+    width: 200px;
+    height: 225px;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.profileImageImage {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.profileBio {
+    background-color: white;
+    width: 980px;
+    height: 225px;
+    border: 3px solid #f4f4f4;
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.profileTextArea {
+    background-color: white;
+    margin: auto;
+    float: left;
+    width: 600px;
+    height: 225px;
+    border-right: 50px solid white;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+.profileVideo {
+    background-color: black;
+    margin: auto;
+    float: left;
+    width: 320px;
+    border-radius: 5px;
+    height: 225px;
+}
+/*#endregion */
+
+/*#region Projects */
+.projects {
+    background-color: white;
+    margin: auto;
+    width: 98%;
+    height: 450px;
+    border: 3px solid #363636;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.info-panel {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 1px;
+    left: 430px;
+    z-index: 999;
+    transition: 1s;
+}
+
+.projectsTitle {
+    background-color: white;
+    background-image: url('../Images/Supernova_Strike_Squad/SNSS_SS_01.png');
+    background-position: center;
+    color: white;
+    background-size: cover;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    border: 3px solid White;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.projectButton {
+    background-color: white;
+    color: black;
+    width: 93%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom :5px;
+    transition: 0.2s;
+}
+
+    .projectButton:hover {
+        width: 97%;
+        height: 50px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 5px;
+        transition: 0.2s;
+    }
+
+    .active, .projectButton:active {
+        width: 100%;
+        height: 50px;
+        transition: 0.2s;
+        margin-bottom: 5px;
+    }
+
+    .active, .projectButton:focus {
+        width: 100%;
+        height: 50px;
+        outline: none;
+        margin-bottom: 5px;
+        transition: 0.2s;
+    }
+
+.listOfProjects {
+    background-color: white;
+    margin: auto;
+    float: left;
+    width: 30%;
+    height: 95%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.projectSlideshow {
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    background-image: url( '../Images/Supernova_Strike_Squad/SNSS_SS_01.png' );
+    margin: auto;
+    float: left;
+    width: 65%;
+    height: 95%;
+    margin-right: 0px;
+    border: 1px solid black;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+#help {
+    position: absolute;
+    width: 50px;
+    right: 29px;
+    float: right;
+    top: 25px;
+    transition: 0.3s;
+}
+
+    #help:hover {
+        position: absolute;
+        width: 60px;
+        right: 29px;
+        float: right;
+        top: 25px;
+        transition: 0.3s;
+    }
+
+.projectInfoPnl {
+    position: absolute;
+    width: 0%;
+    float: left;
+    top: 11px;
+    left: 398px;
+    transition: 0.5s;
+}
+
+.projectInfoPnlImage {
+    width: 100%;
+}
+
+.open {
+    position: absolute;
+    width: 400px;
+    float: left;
+    transition: 0.5s;
+}
+
+/*#endregion */
+/*#region Editor Scripts */
+.editorScripts {
+    background-color: white;
+    margin: auto;
+    width: 98%;
+    height: 350px;
+    border: 3px solid #363636;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.editorScriptExample {
+    background-color: cadetblue;
+    margin: auto;
+    width: 30%;
+    height: 90%;
+    border: 3px solid #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.chessEditor {
+    background-image: url('../Images/Editors/ChessEditor.png');
+    background-position: center;
+    background-size: cover;
+}
+.shipController {
+    background-image: url('../Images/Editors/ShipController.png');
+    background-position: center;
+    background-size: cover;
+}
+.dialogueEditor {
+    background-image: url('../Images/Editors/DialogueEditor.png');
+    background-position: center;
+    background-size: cover;
+}
+/*#endregion */
+
+/*#region Links */
+.links {
+    background-color: white;
+    width: 98%;
+    height: 20px;
+    border: 3px solid #363636;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+}
+
+.icon {
+   justify-content:center;
+    margin: auto;
+    width: 25px;
+    height: 25px;
+    padding-left: 15px;
+}
+/*#endregion */
+/*#region Font Styles */
+.sansserif {
+    font-family: sans-serif;
+}
+
+.text-decorationNone {
+    text-decoration: none;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+/*#endregion */
