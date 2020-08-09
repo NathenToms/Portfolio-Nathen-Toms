@@ -1,152 +1,174 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
     <title>Nathen Toms</title>
-    <script src="Protfolio.js" type="text/javascript"></script> 
+    <link rel="stylesheet" href="css/style.css">
+    <script src="JavaScript.js" type="text/javascript"></script>
 
-    <img src="Images/Supernova_Strike_Squad/SNSS_SS_01.png" style="display:none;" alt="" />
-    <img src="Images/Supernova_Strike_Squad/SNSS_SS_02.png" style="display:none;" alt="" />
-    <img src="Images/Supernova_Strike_Squad/SNSS_SS_03.png" style="display:none;" alt="" />
-    <img src="Images/Supernova_Strike_Squad/SNSS_SS_04.png" style="display:none;" alt="" />
-    <img src="Images/Supernova_Strike_Squad/SNSS_SS_06.png" style="display:none;" alt="" />
-    <img src="Images/Supernova_Strike_Squad/SNSS_SS_07.png" style="display:none;" alt="" />
+    <!-- #region Preload Images to prevent flickering -->
+    <div>
+        <img src="Images/Supernova_Strike_Squad/SNSS_SS_01.png" style="display:none;" alt="" />
+        <img src="Images/Supernova_Strike_Squad/SNSS_SS_02.png" style="display:none;" alt="" />
+        <img src="Images/Supernova_Strike_Squad/SNSS_SS_03.png" style="display:none;" alt="" />
+        <img src="Images/Supernova_Strike_Squad/SNSS_SS_04.png" style="display:none;" alt="" />
+        <img src="Images/Supernova_Strike_Squad/SNSS_SS_06.png" style="display:none;" alt="" />
+        <img src="Images/Supernova_Strike_Squad/SNSS_SS_07.png" style="display:none;" alt="" />
 
-    <img src="Images/Dialogue_Editor/DialogueEditor_SS_01.png" style="display:none;" alt="" />
+        <img src="Images/Dialogue_Editor/DialogueEditor_SS_01.png" style="display:none;" alt="" />
 
-    <img src="Images/Tanks/Tanks_SS_01.png" style="display:none;" alt="" />
-    <img src="Images/Tanks/Tanks_SS_02.png" style="display:none;" alt="" />
-    <img src="Images/Tanks/Tanks_SS_03.png" style="display:none;" alt="" />
-    <img src="Images/Tanks/Tanks_SS_04.png" style="display:none;" alt="" />
+        <img src="Images/Tanks/Tanks_SS_01.png" style="display:none;" alt="" />
+        <img src="Images/Tanks/Tanks_SS_02.png" style="display:none;" alt="" />
+        <img src="Images/Tanks/Tanks_SS_03.png" style="display:none;" alt="" />
+        <img src="Images/Tanks/Tanks_SS_04.png" style="display:none;" alt="" />
 
-    <img src="Images/Scraps/Scraps_SS_01.png" style="display:none;" alt="" />
-    <img src="Images/Scraps/Scraps_SS_02.png" style="display:none;" alt="" />
-    <img src="Images/Scraps/Scraps_SS_03.png" style="display:none;" alt="" />
-    <img src="Images/Scraps/Scraps_SS_04.png" style="display:none;" alt="" />
-    <img src="Images/Scraps/Scraps_SS_05.png" style="display:none;" alt="" />
+        <img src="Images/Scraps/Scraps_SS_01.png" style="display:none;" alt="" />
+        <img src="Images/Scraps/Scraps_SS_02.png" style="display:none;" alt="" />
+        <img src="Images/Scraps/Scraps_SS_03.png" style="display:none;" alt="" />
+        <img src="Images/Scraps/Scraps_SS_04.png" style="display:none;" alt="" />
+        <img src="Images/Scraps/Scraps_SS_05.png" style="display:none;" alt="" />
 
-    <img src="Images/Landscaper/Landscaper_SS_01.png" style="display:none;" alt="" />
-    <img src="Images/Landscaper/Landscaper_SS_02.png" style="display:none;" alt="" />
-    <img src="Images/Landscaper/Landscaper_SS_03.png" style="display:none;" alt="" />
+        <img src="Images/Landscaper/Landscaper_SS_01.png" style="display:none;" alt="" />
+        <img src="Images/Landscaper/Landscaper_SS_02.png" style="display:none;" alt="" />
+        <img src="Images/Landscaper/Landscaper_SS_03.png" style="display:none;" alt="" />
+        <!-- #endregion -->
+    </div>
 
 </head>
-<body>
+<body class="background">
 
-    <div d="load-temp" style="width: 15px; height: 15px;"></div>
+    <div id="load-temp" style="width: 15px; height: 15px;"></div>
 
-    <img src="Images/Supernova_Strike_Squad/SNSS_SS_05.png" id="background-image" />
+    <div class="Portfolio">
 
-    <div class="portfolio">
-    
-        <div class="container height-225 white">
-            <div class="container-item height-max width-200">
+        <!--Contact Info-->
+        <div class="contactInfo">
+            <div class="profileImage">
+                <img src="Images/ProfileImage.jpg" width="190" height="190" class="profileImageImage" />
+            </div>
 
-            <img src="Images/Profile_Image.jpg" alt="" class="profile-image ">    
+            <div class="profileBio">
+
+                <!--<p>Nathen Toms</p>-->
+                <div class="sansserif profileTextArea">
+                    <h2 class="sansserif" id="Name">Nathen Toms</h2>
+                    <h5 class="sansserif" id="Title">Game Developer</h5>
+                    <p id="Description">
+                        Welcome to my personal portfolio, My name is Nathen Toms! I’m a recent Game development graduate!
+                        My passion is programming but I also dabble 2D and 3D art.
+                        I enjoy learning new things and always look for new skills I can improve.
+                        There's always something new and fun to learn or a puzzle to overcome.
+                    </p>
+
+                    <p id="Description"><a href="Resume/NathenTomsResume.pdf" class="text-decorationNone">My Resume</a></p>
+
+                    <p class="boldText" id="Description">NathenToms@hotmail.com</p>
+
+                </div>
+
+                <video width="320" height="220" controls class="profileVideo">
+                    <source src="Videos/NathenTomsPortfolio.mp4">
+                </video>
+
+            </div>
+        </div>
+
+        <!--Projects-->
+        <div class="projects">
+            <div class="listOfProjects">
+                <h2 class="sansserif projectsTitle">Projects</h2>
+                <button class="projectButton boldText active" id="Btn-1">Supernova Strike Squad</button>
+                <button class="projectButton boldText" id="Btn-2">Dialog Editor</button>
+                <button class="projectButton boldText" id="Btn-3">Tanks</button>
+                <button class="projectButton boldText" id="Btn-4">Landscaper</button>
+                <button class="projectButton boldText" id="Btn-5">Scraps</button>
+            </div>
+
+            <img src="Images/Info_Icon.png" alt="" id="help" />
+
+            <div class="projectSlideshow" id="slideshow">
+
+                <a href="Images/Landscaper/Landscaper_SS_01.png" target="_blank" id="slideshow-Link"></a>
+
+                <div class="projectInfoPnl" id="info-panel-id" ">
+                    <img src="Images/Supernova_Strike_Squad/SSS_Info.png" alt="" class="projectInfoPnlImage" id="info-panel-id-image">
+                </div>
 
             </div>
 
-            <div class="profile-info" id="contact-info white">
+            <!--<img src="Images/Landscaper/LandscapeInfo_Icon.pngr_Info.png" alt="Alternate Text" />-->
+            <!--<div class="info-panel transparent" id="info-panel-id">
+            </div>-->
 
-                <h1>Nathen Toms</h1>
-                <p id="small-tag">Game Developer</p>
+        </div>
 
-                <p> Welcome, My name is Nathen Toms, I’m a Game Developer! 
-                    My passion is programming but I also dabble in a bit of 2D art.
-                    There's always something new and fun to learn or a puzzle to overcome. 
-                    I enjoy learning and always look for new skills I can develop.
-                </p>
-                
-                <h4  id="contact-tag"> NathenToms@hotmail.com </h4>
+        <!--Editor Scripts-->
+        <div class="editorScripts">
+            <div class="editorScriptExample chessEditor">
 
             </div>
-    
-            <a href="https://twitter.com/WorldOfEdensArt">
-            <img src="Images/twitterIcon.png" alt="" id="twitter" />    
-           </a>
-
-        </div>  
-
-        <div class="container height-500">
-            <div class="container-item width-415px height-max inline-block white">
-                <h3 class="width-max"> Projects </h3>
-                <ul  class="width-max"  style="float: left;">
-                    <li><button class="button active" id="Btn-1">Supernova Strike Squad </button></li>
-                    <li><button class="button" id="Btn-2">Dialogue Editor</button></li>
-                    <li><button class="button" id="Btn-3">Tanks</button></li>
-                    <li><button class="button" id="Btn-4">Landscaper</button></li>
-                    <li><button class="button" id="Btn-5">Scraps</button></li>
-                </ul>
-            </div>
-
-            <a href="Images/Landscaper/Landscaper_SS_01.png" target="_blank" id="slideshow-Link"> 
-            <div class="container-item width-800px height-max inline-block white" id="slideshow">
-                  
-            </div>
-            </a>
-
-            <img src="Images/Info_Icon.png" alt="" id="help"/>
-
-            <div class="info-panel transparent" id="info-panel-id">
-                <img src="Images/Supernova_Strike_Squad/SSS_Info.png" alt="" class="width-max transparent" id="info-panel-id-image">
-            </div>
-        </div>  
-        
-        <div class="container width-max height-75 bottom-fix white">
-            <div class="container-item width-max height-max inline-block " id="links">
-                
-                <ul>
-					<li><a href="https://twitter.com/WorldOfEdensArt"><img src="Images/twitterIcon.png"   /></a></li>
-					<li><a href="https://www.linkedin.com/in/nathen-toms-10ab77112/"><img src="Images/linkedinIcon.png"  /></a></li>
-					<li><a href="https://github.com/NathenToms/Portfolio-Nathen-Toms"><img src="Images/gitIcon.png"/></a></li>
-				</ul>
+            <div class="editorScriptExample shipController">
 
             </div>
-        </div>  
-    </div>
-    
-    <script>
+            <div class="editorScriptExample dialogueEditor">
 
-        Initialize(document.getElementById("slideshow").style);
+            </div>
+        </div>
 
-        const slideShow = document.getElementById("slideshow").style;
-        const buttons = document.querySelectorAll('button');
-       
-        var index = 1;
-        
-        buttons.forEach(button => {
-            button.addEventListener('click', function(){
-                buttons.forEach(btn => btn.classList.remove('active'))
-                this.classList.add('active');
+        <!--Links-->
+        <div class="links">
+
+
+            <a href="https://twitter.com/WorldOfEdensArt"><img src="Images/twitterIcon.png" class="icon" /></a>
+            <a href="https://www.linkedin.com/in/nathen-toms-10ab77112/"><img src="Images/linkedinIcon.png" class="icon" /></a>
+            <a href="https://github.com/NathenToms/Portfolio-Nathen-Toms"><img src="Images/gitIcon.png" class="icon" /></a>
+
+
+        </div>
+
+        <!--Scripts-->
+        <script>
+
+            // Initialize
+            Initialize(document.getElementById("slideshow").style);
+
+            const slideShow = document.getElementById("slideshow").style;
+            const buttons = document.querySelectorAll('Button');
+
+            var index = 1;
+
+            buttons.forEach(button => {
+                button.addEventListener('click', function () {
+                    buttons.forEach(btn => btn.classList.remove('active'))
+                    this.classList.add('active');
+                });
+
+                switch (index) {
+                    case 1: (document.getElementById("Btn-1")).addEventListener("click", () => { updateImage(slideShow, SSS_Images); document.getElementById("info-panel-id-image").src = "Images/Supernova_Strike_Squad/SSS_Info.png"; }); break;
+                    case 2: (document.getElementById("Btn-2")).addEventListener("click", () => { updateImage(slideShow, DOE_Images); document.getElementById("info-panel-id-image").src = "Images/Dialogue_Editor/DialogueEditor_Info.png"; }); break;
+                    case 3: (document.getElementById("Btn-3")).addEventListener("click", () => { updateImage(slideShow, TNT_Images); document.getElementById("info-panel-id-image").src = "Images/Tanks/Tanks_Info.png"; }); break;
+                    case 4: (document.getElementById("Btn-4")).addEventListener("click", () => { updateImage(slideShow, LND_Images); document.getElementById("info-panel-id-image").src = "Images/Landscaper/Landscaper_Info.png"; }); break;
+                    case 5: (document.getElementById("Btn-5")).addEventListener("click", () => { updateImage(slideShow, SCR_Images); document.getElementById("info-panel-id-image").src = "Images/Scraps/Scraps_Info.png"; }); break;
+                        break;
+                }
+
+                index++;
             });
 
-            switch (index) {
-                case 1: (document.getElementById("Btn-1")).addEventListener( "click", () => { updateImage(slideShow, SSS_Images); document.getElementById("info-panel-id-image").src = "Images/Supernova_Strike_Squad/SSS_Info.png"; }); break;
-                case 2: (document.getElementById("Btn-2")).addEventListener( "click", () => { updateImage(slideShow, DOE_Images); document.getElementById("info-panel-id-image").src = "Images/Dialogue_Editor/DialogueEditor_Info.png"; }); break;
-                case 3: (document.getElementById("Btn-3")).addEventListener( "click", () => { updateImage(slideShow, TNT_Images); document.getElementById("info-panel-id-image").src = "Images/Tanks/Tanks_Info.png"; }); break;
-                case 4: (document.getElementById("Btn-4")).addEventListener( "click", () => { updateImage(slideShow, LND_Images); document.getElementById("info-panel-id-image").src = "Images/Landscaper/Landscaper_Info.png";  }); break;
-                case 5: (document.getElementById("Btn-5")).addEventListener( "click", () => { updateImage(slideShow, SCR_Images); document.getElementById("info-panel-id-image").src = "Images/Scraps/Scraps_Info.png"; }); break;
-                break;   
-            }
+            const moreInfoBtn = document.getElementById("help");
 
-            index++;
-        });
+            moreInfoBtn.addEventListener("mouseover", () => {
+                document.getElementById("info-panel-id").classList.add('open');
+            });
 
-        const moreInfoBtn = document.getElementById("help");
-			
-		moreInfoBtn.addEventListener("mouseover", ()=> { 
-			document.getElementById("info-panel-id").classList.add('open');
-		});				
-		
-		moreInfoBtn.addEventListener("mouseout", ()=> { 
-			document.getElementById("info-panel-id").classList.remove('open');
-		});	
+            moreInfoBtn.addEventListener("mouseout", () => {
+                document.getElementById("info-panel-id").classList.remove('open');
+            });
 
-        const tempImg = document.getElementById("load-temp");
-        preloadImages(tempImg);
+            const tempImg = document.getElementById("load-temp");
+            preloadImages(tempImg);
 
-    </script>
-
+        </script>
+    </div>
 </body>
 </html>
