@@ -173,7 +173,6 @@
     float: left;
     width: 31.5%;
     height: 90%;
-
     padding-right: 15px;
 }
 
@@ -195,7 +194,7 @@
 #help {
     position: absolute;
     width: 50px;
-    right: 29px;
+    right: 15px;
     float: right;
     top: 25px;
     transition: 0.3s;
@@ -204,7 +203,7 @@
     #help:hover {
         position: absolute;
         width: 60px;
-        right: 29px;
+        right: 15px;
         float: right;
         top: 25px;
         transition: 0.3s;
@@ -215,7 +214,7 @@
     width: 0%;
     float: left;
     top: 11px;
-    left: 398px;
+    left: 411px;
     transition: 0.5s;
 }
 
