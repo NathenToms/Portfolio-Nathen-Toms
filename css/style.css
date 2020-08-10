@@ -9,7 +9,7 @@
 
 /*The Portfolio Container*/
 .Portfolio {
-    background-color: #363636;
+    background-color: #BBBBBB;
     margin: auto;
     width: 1250px;
     height: 1175px;
@@ -18,10 +18,10 @@
 }
 
 /*#region Contact Info */
-#Name{
-    position:relative;
-    left:5px;
-    top:-10px;
+#Name {
+    position: relative;
+    left: 5px;
+    top: -10px;
 }
 
 #Title {
@@ -42,7 +42,7 @@
     width: 98%;
     height: 250px;
     display: flex;
-    border: 3px solid #363636;
+    border: 3px solid #BBBBBB;
     border-radius: 10px;
     padding: 10px;
 }
@@ -98,7 +98,7 @@
     margin: auto;
     width: 98%;
     height: 450px;
-    border: 3px solid #363636;
+    border: 3px solid #BBBBBB;
     border-radius: 10px;
     padding: 10px;
     position: relative;
@@ -138,7 +138,7 @@
     height: 50px;
     border: 1px solid black;
     border-radius: 10px;
-    margin-bottom :5px;
+    margin-bottom: 5px;
     transition: 0.2s;
 }
 
@@ -171,10 +171,10 @@
     background-color: white;
     margin: auto;
     float: left;
-    width: 30%;
-    height: 95%;
-    border-radius: 10px;
-    padding: 10px;
+    width: 31.5%;
+    height: 90%;
+
+    padding-right: 15px;
 }
 
 .projectSlideshow {
@@ -237,7 +237,7 @@
     margin: auto;
     width: 98%;
     height: 350px;
-    border: 3px solid #363636;
+    border: 3px solid #BBBBBB;
     display: flex;
     border-radius: 10px;
     padding: 10px;
@@ -258,11 +258,13 @@
     background-position: center;
     background-size: cover;
 }
+
 .shipController {
     background-image: url('../Images/Editors/ShipController.png');
     background-position: center;
     background-size: cover;
 }
+
 .dialogueEditor {
     background-image: url('../Images/Editors/DialogueEditor.png');
     background-position: center;
@@ -275,7 +277,7 @@
     background-color: white;
     width: 98%;
     height: 20px;
-    border: 3px solid #363636;
+    border: 3px solid #BBBBBB;
     border-radius: 10px;
     display: flex;
     padding: 10px;
@@ -284,7 +286,7 @@
 }
 
 .icon {
-   justify-content:center;
+    justify-content: center;
     margin: auto;
     width: 25px;
     height: 25px;
