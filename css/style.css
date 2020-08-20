@@ -2,14 +2,14 @@
 
 /*The Background of my portfolio*/
 .background {
-    background-image: url('../Images/Supernova_Strike_Squad/SNSS_SS_05.png');
+    background-color:#23272A;
     background-position: center;
     background-size: cover;
 }
 
 /*The Portfolio Container*/
 .Portfolio {
-    background-color: #BBBBBB;
+    background-color: #23272A;
     margin: auto;
     width: 1250px;
     height: 1175px;
@@ -42,7 +42,7 @@
     width: 98%;
     height: 250px;
     display: flex;
-    border: 3px solid #BBBBBB;
+    border: 3px solid #23272A;
     border-radius: 10px;
     padding: 10px;
 }
@@ -98,7 +98,7 @@
     margin: auto;
     width: 98%;
     height: 450px;
-    border: 3px solid #BBBBBB;
+    border: 3px solid #23272A;
     border-radius: 10px;
     padding: 10px;
     position: relative;
@@ -236,7 +236,7 @@
     margin: auto;
     width: 98%;
     height: 350px;
-    border: 3px solid #BBBBBB;
+    border: 3px solid #23272A;
     display: flex;
     border-radius: 10px;
     padding: 10px;
@@ -276,7 +276,7 @@
     background-color: white;
     width: 98%;
     height: 20px;
-    border: 3px solid #BBBBBB;
+    border: 3px solid #23272A;
     border-radius: 10px;
     display: flex;
     padding: 10px;
